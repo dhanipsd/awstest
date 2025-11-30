@@ -26,7 +26,7 @@ terraform init
 
 ### 2. Apply the infrastructure
 
-<pre>terraform apply \ -var="centos7_ami=ami-xxxxxxxx" \ -var="public_key_path=~/.ssh/id_rsa.pub" \ -var="private_key_path=~/.ssh/id_rsa"</pre>
+<pre>terraform apply -var="centos7_ami=ami-xxxxxxxx" -var="public_key_path=~/.ssh/id_rsa.pub" -var="private_key_path=~/.ssh/id_rsa"</pre>
 
 ## Access the Application
 
